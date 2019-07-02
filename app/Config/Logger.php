@@ -32,7 +32,7 @@ class Logger extends BaseConfig
 	| your log files will fill up very fast.
 	|
 	*/
-	public $threshold = 3;
+	public $threshold = 8;
 
 	/*
 	|--------------------------------------------------------------------------
@@ -114,7 +114,7 @@ class Logger extends BaseConfig
 			 *
 			 * Note: Leaving it blank will default to 'php'.
 			 */
-			'fileExtension'   => 'php',
+			'fileExtension'   => 'txt',
 
 			/*
 			 * The file system permissions to be applied on newly created log files.
